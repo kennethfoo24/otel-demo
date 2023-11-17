@@ -8318,9 +8318,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: opentelemetry-demo-frontendproxy
-  annotations:
-    cloud.google.com/neg: ‘{“ingress”:true}’
   labels:
+    
     opentelemetry.io/name: opentelemetry-demo-frontendproxy
     app.kubernetes.io/instance: opentelemetry-demo
     app.kubernetes.io/component: frontendproxy
